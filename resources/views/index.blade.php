@@ -17,7 +17,7 @@
     </section>
     <div class="row justify-content-center">
       <div class="col-md-4">
-        <form action="{{ url('/index/cari') }}" method="GET">
+        <form action="{{ url('/index/cari#tengah') }}" method="GET">
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Cari..." aria-label="Recipient's username" name="value" value="{{ request('value') }}"aria-describedby="button-addon2" autofocus>
             <button class="btn btn-primary text-light" type="submit">Search</button>
@@ -28,7 +28,7 @@
     <main>
       
         <div class="album py-5 bg-light">
-          <div class="container">
+          <div class="container" id="tengah">
             @if ( isset($messageArr) )
               <h2 class="text-center">{{ $messageArr['pesan'] }}</h2>
             @endif

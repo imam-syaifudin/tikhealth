@@ -23,6 +23,7 @@ class IndexController extends Controller
         $arr = [
             "title" => "TIK HEALTH"
         ];
+        $data = ['data' => 'success'];
         $artikel = Artikel::where('judul','like', '%' . $request->value . '%')
         ->orWhere('isi','like', '%' . $request->value . '%')
         ->orWhere('isi','like', '%' . $request->value . '%')
@@ -40,7 +41,7 @@ class IndexController extends Controller
             ];
             return view('index',compact('arr','messageArr','artikel'));
         } else {
-            return view('index',compact('artikel','arr'));
+            return view('index',compact('artikel','arr','data'));
         }
 
         
