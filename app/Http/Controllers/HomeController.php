@@ -56,6 +56,7 @@ class HomeController extends Controller
         return view('home',compact('member','columnName','arr','array'));
 
     }
+    
 
 
     public function cari(Request $request){

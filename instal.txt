@@ -1,0 +1,15 @@
+---- LARAVEL MANAGE ARTIKEL -------
+
+# Coded By Muhammad Imam
+
+How To install
+
+1. NEED TO INSTALL ( NODE JS,COMPOSER,GIT )
+2.git clone https://github.com/imam-syaifudin/tikhealth.git
+3.open folder and run git bash here
+4.type composer install
+5.Open folder in text editor
+6.Edits .env database name like ur database
+
+
+-- Thanks to visit my peojecst
