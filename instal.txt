@@ -10,6 +10,8 @@ How To install
 4.type composer install
 5.Open folder in text editor
 6.Edits .env database name like ur database
+7.type php artisan migrate
+
 
 
 -- Thanks to visit my peojecst
